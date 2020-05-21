@@ -14,4 +14,6 @@
   <% end %>
 </ul>
 
-<%= link_to " + Add a new review", new_restaurant_review_path(@restaurant) %>
+<%= link_to " + Add a new review", new_restaurant_review_path(@restaurant), class: "btn btn-primary" %>
+
+<%= link_to " ⏪ Back to all restaurants", restaurants_path(@restaurant), class: "btn btn-danger" %>
